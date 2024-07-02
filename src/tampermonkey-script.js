@@ -66,7 +66,7 @@
 
     // Show the floating window when the hotkey is pressed
     $(document).on('keydown', function(e) {
-        if (e.ctrlKey && e.shiftKey && e.key === 'V') {
+        if (e.metaKey && e.shiftKey && e.key === 'F') {
             $('#vt-query-window').toggle();
         }
     });
